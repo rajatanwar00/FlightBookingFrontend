@@ -1,10 +1,8 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:8080/flights/FL100';
+const BASE_URL = 'flightbookingbackend-production.up.railway.app/flights/FL100';
 
 
 function App() {
