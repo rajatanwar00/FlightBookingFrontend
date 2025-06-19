@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import axios from 'axios';
 
-const BASE_URL = 'flightbookingbackend-production.up.railway.app/flights/FL100';
+const BASE_URL = 'https://flightbookingbackend-production.up.railway.app/flights/FL100';
 
 
 function App() {
